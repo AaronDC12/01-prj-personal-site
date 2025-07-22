@@ -1,1 +1,152 @@
 /* Add you CSS here */
+
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif; /* Use a modern, standout font */
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Light background color */
+  color: #333; /* Dark text color */
+
+/* Hero Section */
+#hero {
+  background-image: url('img/hero-bg.jpg'); /* Set the background image */
+  background-size: cover; /* Ensure the background covers the entire section */
+  background-position: center; /* Center the background image */
+  color: white; /* White text for contrast */
+  text-align: center; /* Center align content */
+  padding: 40px 20px; /* Add spacing */
+}
+
+#hero img {
+  width: 150px; /* Increase image width */
+  height: 150px; /* Increase image height */
+  border-radius: 50%; /* Keep the image circular */
+  border: 3px solid white; /* Add a white border */
+  margin-bottom: 10px; /* Add spacing below the image */
+}
+
+#hero h1 {
+  font-size: 28px; /* Increase heading size */
+  margin-bottom: 10px; /* Add spacing below the heading */
+}
+
+#hero p {
+  font-size: 16px; /* Adjust paragraph font size */
+}
+
+/* Mission Section */
+#mission {
+  background-color: white; /* White background */
+  padding: 40px 20px; /* Add spacing */
+}
+
+.mission-content {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  gap: 20px; /* Add spacing between items */
+}
+
+#mission img {
+  width: 300px; /* Adjust image size */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+#mission h2 {
+  color: #1e2f42; /* Dark blue text */
+  margin-bottom: 10px; /* Add spacing below the heading */
+}
+
+#mission p {
+  font-size: 16px; /* Adjust paragraph font size */
+  line-height: 1.6; /* Improve readability */
+}
+
+/* Skills Section */
+#skills {
+  background-color: #1e2f42; /* Dark blue background */
+  color: white; /* White text for contrast */
+  text-align: center; /* Center align content */
+  padding: 40px 20px; /* Add spacing */
+}
+
+#skills h2 {
+  font-size: 24px; /* Increase heading size */
+  margin-bottom: 15px; /* Add spacing below the heading */
+}
+
+#skills p {
+  font-size: 16px; /* Adjust paragraph font size */
+  margin-bottom: 20px; /* Add spacing below the paragraph */
+}
+
+#skills ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove padding */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center the list items */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  gap: 10px; /* Add spacing between items */
+}
+
+#skills ul li {
+  background-color: #0056b3; /* Darker blue for skill badges */
+  color: white; /* White text for contrast */
+  padding: 10px 20px; /* Add padding to badges */
+  border-radius: 20px; /* Rounded corners for badges */
+  font-size: 14px; /* Adjust font size for badges */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+#skills ul li:hover {
+  transform: scale(1.1); /* Slightly enlarge the badge on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+}
+
+/* Skills Section */
+#skills {
+  background-color: #1e2f42; /* Blue background to match the hero section */
+  color: white; /* White text for contrast */
+  text-align: center; /* Center align content */
+  padding: 30px; /* Add more padding for better spacing */
+  border-radius: 10px; /* Rounded corners for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  margin-top: 20px; /* Add spacing above the section */
+}
+
+#skills h2 {
+  font-size: 24px; /* Increase heading size */
+  margin-bottom: 15px; /* Add spacing below the heading */
+}
+
+#skills p {
+  font-size: 16px; /* Adjust paragraph font size */
+  margin-bottom: 20px; /* Add spacing below the paragraph */
+}
+
+#skills ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove padding */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center the list items */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  gap: 10px; /* Add spacing between items */
+}
+
+#skills ul li {
+  background-color: #0056b3; /* Darker blue for skill badges */
+  color: white; /* White text for contrast */
+  padding: 10px 20px; /* Add padding to badges */
+  border-radius: 20px; /* Rounded corners for badges */
+  font-size: 14px; /* Adjust font size for badges */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+#skills ul li:hover {
+  transform: scale(1.1); /* Slightly enlarge the badge on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
